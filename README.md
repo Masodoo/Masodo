@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaikoKurami's Home</title>
+    <link rel="icon" href="https://files.catbox.moe/akcn72.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="profile">
+        <div class="header" data-src="assets/banner.jpg" lazy="loaded" style="background-image: url(https://saikokurami.github.io/assets/banner.jpg);"></div>
+        <div class="box">
+        <div class="hyper" data-tooltip="HyperSquad Balance"><img width="32" src="assets/hyper.svg"></div>
+        <div class="stray-admin" data-tooltip="Stray Guild Master"><img width="36" src="assets/admin.svg"></div>
+        <img src="assets/profile.png" alt="" class="box-img">
+        <h1>SaikoKurami</h1>
+        <h5>Student - Graphic Designer</h5>
+        <p>Heya! This is Chris, a 20 years old student that loves to read/watch animanga, and also likes to listen Jpop songs.</p>
+            <div class="social-title"><img width="100" src="assets/social-title.svg"></div>
+            <div class="social">
+                <a target="_blank" rel="noopener noreferrer" href="https://sptfy.com/SaikoKurami"><img width="45" src="assets/spotify.png"><span>SPOTIFY</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://anilist.co/user/SaikoKurami"><img allign="left" width="45" src="assets/anilist.png"><span>ANILIST</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discordid.netlify.app/?id=721692323469066293"><img width="45" src="assets/discord.png"><span>DISCORD</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SaikoKurami"><img width="45" src="assets/twitter.png"><span>TWITTER</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.last.fm/user/SaikoKurami"><img width="45" src="assets/lastfm.png"><span>LAST.FM</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/SaikoKurami"><img width="45" src="assets/pinterest.png"><span>PINTEREST</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/saikokurami/"><img width="45" src="assets/instagram.png"><span>INSTAGRAM</span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/saikokurami"><img width="45" src="assets/soundcloud.png"><span>SOUNDCLOUD</span></a>
+            </div>
+            <div class="playlist-title"><img width="100" src="assets/playlist-title.svg"></div>
+            <div class="playlist">
+            <a target="_blank" rel="noopener noreferrer" href=" https://sptfy.com/70ba"><img width="90" src="assets/animix-cover.png"><span>ANIMIX-SK</span>
+                <br><h5>A playlist full of JPop Songs.</h5></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://sptfy.com/70b6"><img width="90" src="assets/lofi-cover.png"><span>LOFI-SK</span>
+                <br><h5>A playlist that you can listen while studying.</h5></a>
+            </div>
+            <div class="date" id="date">
+                <script type="text/javascript">
+                    function doDate() {
+                        var str = "";
+                        var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                        var clock = new Date();
+                        var now = new Date();
+
+                        str += months[clock.getMonth()] + " " + now.getDate() + ", " + clock.getFullYear() + " | " + ("0" + now.getHours()).slice(-2) +":" + ("0" + now.getMinutes()).slice(-2) + ":" + ("0" + now.getSeconds()).slice(-2);
+                        document.getElementById("date").innerHTML = str;
+                    }
+                    setInterval(doDate, 1000);
+                    doDate();
+                </script>
+        </div>
+        <img src="https://s01.flagcounter.com/mini/N92Z/bg_151f2e/txt_415164/border_151f2e/flags_0/" alt="Flag Counter" class="counter"></a>
+        </div>
+    </body>
+</html>
